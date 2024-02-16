@@ -2,6 +2,7 @@ package directory_io;
 
 import java.io.BufferedReader;
 
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileReader;
@@ -51,8 +52,8 @@ public class NewNamesEnter {
 		
 		FileReader fr=new FileReader(f1);
 		BufferedReader br=new BufferedReader(fr);
-        	String line=	br.readLine();
-        	
+        	String line=br.readLine();
+        	 
         	while(line !=null)
         	{
         		System.out.println(line);
